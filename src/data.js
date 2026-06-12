@@ -28,7 +28,7 @@ export const experience = [
     company: 'Remote · Contract',
     period: 'Jan 2026 – Present',
     points: [
-      'Built LungCare+, a lung-cancer diagnostics platform — a FastAPI backend with a CNN model serving predictions from CT-scan uploads — delivered end-to-end, including model training and production deployment on Railway.',
+      'Built MandiConnect, an API-first local-market price-comparison platform delivered as a client project — a Django 5 + DRF JSON API with Redis-cached endpoints, Celery/Beat background jobs, JWT role-based auth, and geo search — deployed on Railway via Docker.',
       'Over a five-month engagement at Harbor (Jan – May 2026), built and evaluated terminal-bench agentic tasks spanning scientific computing, model training, and software-engineering (SWE) domains — authoring Dockerized environments, automated tests, and scoring logic to benchmark LLM coding agents.',
       'Contributed to RLHF data pipelines and model evaluation, and shipped full-stack and backend features with Python, FastAPI/Django, REST APIs, and PostgreSQL across client projects.',
     ],
@@ -65,11 +65,12 @@ export const projects = [
     accent: 'from-blue-500/20 to-cyan-400/10',
   },
   {
-    name: 'LungCare+ — Lung Cancer Detection',
+    name: 'MandiConnect — Local Market Price Platform',
     blurb:
-      'A healthcare platform with a FastAPI backend serving CNN-based lung-cancer predictions from CT-scan uploads. REST endpoints for scans, predictions, and patient data, with an inference pipeline handling preprocessing and confidence scoring.',
-    tags: ['FastAPI', 'PyTorch', 'CNN', 'PostgreSQL', 'Railway'],
-    live: 'https://lung-care-plus-one.vercel.app/',
+      'An API-first local "mandi" platform where customers compare live vendor produce prices and vendors post daily listings. Django 5 + DRF JSON API consumed via jQuery AJAX, with Redis caching, Celery/Beat jobs (price snapshots, email alerts, CSV exports), JWT roles, geo radius search, and Chart.js price trends.',
+    note: 'This live site is a public blueprint of a larger production build I delivered for a client — the full system, with additional features, runs in my local environment.',
+    tags: ['Django', 'DRF', 'PostgreSQL', 'Redis', 'Celery', 'JWT'],
+    live: 'https://web-production-71394.up.railway.app/',
     github: null,
     featured: true,
     accent: 'from-cyan-400/20 to-blue-500/10',

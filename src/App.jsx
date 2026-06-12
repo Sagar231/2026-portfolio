@@ -291,7 +291,13 @@ function Projects() {
                   <span className="shrink-0 rounded-full bg-emerald-500/15 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide text-emerald-400">Live</span>
                 )}
               </div>
-              <p className="flex-1 text-sm leading-relaxed text-slate-400">{p.blurb}</p>
+              <p className="text-sm leading-relaxed text-slate-400">{p.blurb}</p>
+              {p.note && (
+                <p className="mt-3 rounded-lg border border-brand/25 bg-brand/5 px-3 py-2 text-xs italic leading-relaxed text-brand-light">
+                  {p.note}
+                </p>
+              )}
+              <div className="flex-1" />
               <div className="mt-5 flex flex-wrap gap-1.5">
                 {p.tags.map((t) => (
                   <span key={t} className="rounded-md border border-white/10 bg-white/5 px-2 py-1 text-[11px] font-medium text-slate-300">{t}</span>
