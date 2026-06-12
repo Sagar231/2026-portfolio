@@ -29,7 +29,7 @@ export const experience = [
     period: 'Jan 2026 – Present',
     points: [
       'Built MandiConnect, an API-first local-market price-comparison platform delivered as a client project — a Django 5 + DRF JSON API with Redis-cached endpoints, Celery/Beat background jobs, JWT role-based auth, and geo search — deployed on Railway via Docker.',
-      'Over a five-month engagement at Harbor (Jan – May 2026), built and evaluated terminal-bench agentic tasks spanning scientific computing, model training, and software-engineering (SWE) domains — authoring Dockerized environments, automated tests, and scoring logic to benchmark LLM coding agents.',
+      'Over a five-month engagement with a client (Jan – May 2026), built and evaluated Harbor terminal-bench agentic tasks spanning scientific computing, model training, and software-engineering (SWE) domains — authoring Dockerized environments, automated tests, and scoring logic to benchmark LLM coding agents.',
       'Contributed to RLHF data pipelines and model evaluation, and shipped full-stack and backend features with Python, FastAPI/Django, REST APIs, and PostgreSQL across client projects.',
     ],
   },
